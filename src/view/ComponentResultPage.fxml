@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="630.0" prefWidth="1080.0" style="-fx-background-color: eeece1;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ComponentResultPageController">
+   <center>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="945.0" style="-fx-background-color: eeece1;">
+         <children>
+            <Label text="Search Results :  Components" underline="true">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER_LEFT" prefHeight="48.0" prefWidth="1080.0">
+               <children>
+                  <Label prefHeight="47.0" prefWidth="157.0" text="User Preferences: ">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="preferenceLbl" prefHeight="27.0" prefWidth="758.0" text="Gaming">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <ScrollPane prefHeight="450.0" prefWidth="800.0">
+               <content>
+                  <VBox prefHeight="1350.0" prefWidth="932.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <Label prefHeight="15.0" prefWidth="150.0" text="CPU/ Processors" textFill="#161dd7" underline="true">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cpuBudgetLbl" prefHeight="23.0" prefWidth="246.0" text="Budget">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <ScrollPane prefHeight="200.0" prefWidth="1065.0">
+                           <content>
+                              <HBox fx:id="cpuResultBox" prefHeight="180.0" prefWidth="1065.0" spacing="10.0" />
+                           </content>
+                        </ScrollPane>
+                        <HBox>
+                           <children>
+                              <Label prefHeight="15.0" prefWidth="150.0" text="Graphics Cards" textFill="#161dd7" underline="true">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="graphicBudgetLbl" prefHeight="23.0" prefWidth="246.0" text="Budget">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <ScrollPane prefHeight="200.0" prefWidth="1080.0">
+                           <content>
+                              <HBox fx:id="graphicsResultBox" prefHeight="180.0" prefWidth="1065.0" spacing="10.0" />
+                           </content>
+                        </ScrollPane>
+                        <HBox>
+                           <children>
+                              <Label prefHeight="15.0" prefWidth="150.0" text="Memory" textFill="#161dd7" underline="true">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="memoryBudgetLbl" prefHeight="23.0" prefWidth="246.0" text="Budget">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <ScrollPane prefHeight="200.0" prefWidth="1065.0">
+                           <content>
+                              <HBox fx:id="memoryResultBox" prefHeight="180.0" prefWidth="1065.0" spacing="10.0" />
+                           </content>
+                        </ScrollPane>
+                        <HBox>
+                           <children>
+                              <Label prefHeight="15.0" prefWidth="150.0" text="Cooling System" textFill="#161dd7" underline="true">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="coolingBudgetLbl" prefHeight="23.0" prefWidth="246.0" text="Budget">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <ScrollPane prefHeight="200.0" prefWidth="1080.0">
+                           <content>
+                              <HBox fx:id="coolingResultBox" prefHeight="180.0" prefWidth="1065.0" spacing="10.0" />
+                           </content>
+                        </ScrollPane>
+                        <HBox>
+                           <children>
+                              <Label prefHeight="15.0" prefWidth="150.0" text="Storage" textFill="#161dd7" underline="true">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="storageBudgetLbl" prefHeight="23.0" prefWidth="246.0" text="Budget">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <ScrollPane prefHeight="200.0" prefWidth="1080.0">
+                           <content>
+                              <HBox fx:id="storageResultBox" prefHeight="180.0" prefWidth="1065.0" spacing="10.0" />
+                           </content>
+                        </ScrollPane>
+                        <HBox>
+                           <children>
+                              <Label prefHeight="15.0" prefWidth="150.0" text="Motherboard" textFill="#2926e9" underline="true">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="motherboardBudgetLbl" prefHeight="23.0" prefWidth="246.0" text="Budget">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <ScrollPane prefHeight="200.0" prefWidth="1080.0">
+                           <content>
+                              <HBox fx:id="motherboardResultBox" prefHeight="180.0" prefWidth="1065.0" spacing="10.0" />
+                           </content>
+                        </ScrollPane>
+                     </children>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </VBox>
+               </content>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <Label alignment="CENTER" prefHeight="60.0" prefWidth="365.0" text="Computer Selector" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <left>
+      <VBox alignment="TOP_CENTER" prefHeight="526.0" prefWidth="128.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#getSearchComponentPage" prefWidth="100.0" text="Back">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" top="25.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#getHomePage" prefWidth="100.0" text="Back To Home">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#getLoginPage" prefWidth="100.0" text="Logout">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

@@ -1,0 +1,197 @@
+[
+  {
+    "Gaming": {
+      "PCName": "Lenovo Legion Tower 5 AMD Gaming Desktop",
+      "CPU": "AMD Ryzen 7-5700G",
+      "RAM": "16GB Memory",
+      "Graphics": "NVIDIA GeForce RTX 3060",
+      "Storage": "512GB SSD + 1TB HDD",
+      "Price": "$1,449.99",
+      "Image": "/view/images/PrebuiltGaming/LenovoLegionTower5.jpg",
+      "Link": "https://www.amazon.com/Lenovo-Tower-Desktop-DisplayPort-Bluetooth/dp/B09B49LKQG"
+    }
+  },
+  {
+    "Gaming": {
+      "PCName": "CyberPowerPC Gamer Master Gaming Desktop",
+      "CPU": "AMD Ryzen 7 5700G",
+      "RAM": "16GB Memory",
+      "Graphics": "NVIDIA GeForce RTX 2060",
+      "Storage": "1TB HDD + 500GB SSD",
+      "Price": "$1,449.99",
+      "Image": "/view/images/PrebuiltGaming/CyberPowerPCGamerMasterGaming.jpg",
+      "Link": "https://www.amazon.com/CyberPowerPC-Gamer-Master-Desktop-Computer/dp/B095XCCLDN"
+    }
+  },
+  {
+    "Gaming": {
+      "PCName": "Skytech Gaming Chronos Mini Gaming Desktop",
+      "CPU": "AMD Ryzen 3 3100",
+      "RAM": "8GB Memory",
+      "Graphics": "NVIDIA GeForce GTX1650",
+      "Storage": "500GB SSD",
+      "Price": "$799.99",
+      "Image": "/view/images/PrebuiltGaming/SkytechGamingChronosMini.jpg",
+      "Link": "https://www.amazon.com/Skytech-Chronos-Mini-Gaming-Desktop/dp/B09JBNYMTH"
+    }
+  },
+  {
+    "Gaming": {
+      "PCName": "Alienware Aurora Ryzen Edition R10",
+      "CPU": "AMD Ryzen 5 3500 – 9 3950X",
+      "RAM": "8GB – 64GB Memory",
+      "Graphics": "AMD Radeon RX 5600 or NVIDIA GeForce RTX 2080 Ti",
+      "Storage": "1TB 7200RPM SATA",
+      "Price": "$1,049.99",
+      "Image": "/view/images/PrebuiltGaming/AlienwareAurora.jpg",
+      "Link": "https://www.amazon.com/Alienware-Aurora-R10-Gaming-Desktop/dp/B09HL94HNS"
+    }
+  },
+
+  {
+    "Student": {
+      "PCName": "Microsoft Surface Laptop 3 - 13.5\" Touch-Screen",
+      "CPU": "Intel Core i7",
+      "RAM": "16GB Memory",
+      "Graphics": "",
+      "Storage": "256GB Solid State Drive",
+      "Price": "$1,599.99",
+      "Image": "/view/images/PrebuiltStudent/MicrosoftSurfaceLaptop.jpg",
+      "Link": "https://www.amazon.com/Microsoft-Surface-Laptop-Touch-Screen-VGL-00001/dp/B08L8W2WJ8"
+    }
+  },
+  {
+    "Student": {
+      "PCName": "HP 14\" Laptop",
+      "CPU": "Intel Celeron",
+      "RAM": "4GB Memory",
+      "Graphics": "",
+      "Storage": "64GB eMMC",
+      "Price": "$224.99",
+      "Image": "/view/images/PrebuiltStudent/HP14Inch.jpg",
+      "Link": "https://www.amazon.com/HP-Chromebook-Micro-Edge-Portable-14a-na0023nr/dp/B099M5J8MP"
+    }
+  },
+  {
+    "Student": {
+      "PCName": "Apple MacBook Pro 16\" Display with Touch Bar",
+      "CPU": "Intel Core i9",
+      "RAM": "16GB Memory",
+      "Graphics": "AMD Radeon Pro 5500M",
+      "Storage": "1TB SSD",
+      "Price": "$2299.99",
+      "Image": "/view/images/PrebuiltStudent/MacBookPro.jpg",
+      "Link": "https://www.amazon.com/Apple-MacBook-16-inch-10%E2%80%91core-16%E2%80%91core/dp/B09JQMW44C"
+    }
+  },
+  {
+    "Student": {
+      "PCName": "ASUS Q507IQ 15.6\" Touch-Screen Laptop",
+      "CPU": "AMD Ryzen 7",
+      "RAM": "8GB Memory",
+      "Graphics": "NVIDIA GeForce MX350",
+      "Storage": "256GB SSD",
+      "Price": "$849.99",
+      "Image": "/view/images/PrebuiltStudent/Asus.jpg",
+      "Link": "https://www.amazon.com/ASUS-Touch-Screen-Backlight-R7-4700U-Accessory/dp/B08QMW12T4"
+    }
+  },
+
+  {
+    "Coding": {
+      "PCName": "MacBook Pro 14-inch",
+      "CPU": "Apple M1 Pro 8-core",
+      "RAM": "Up to 16GB Memory",
+      "Graphics": "Integrated 14-core GPU",
+      "Storage": "512GB SSD",
+      "Price": "$1999.99",
+      "Image": "/view/images/PrebuiltCoding/MacBookPro14.jpg",
+      "Link": "https://www.amazon.com/dp/B09JQL8KP9"
+    }
+  },
+  {
+    "Coding": {
+      "PCName": "Google Pixelbook Go",
+      "CPU": "Intel Core m3 - Intel Core i7",
+      "RAM": "8GB - 16GB Memory",
+      "Graphics": "Intel UHD Graphics 615",
+      "Storage": "128GB - 256GB eMMC",
+      "Price": "$599.00",
+      "Image": "/view/images/PrebuiltCoding/GooglePixelBook.jpg",
+      "Link": "https://www.amazon.com/Google-Pixelbook-i7-RAM-512/dp/B075JLPLBL"
+    }
+  },
+  {
+    "Coding": {
+      "PCName": "HP Z4 G4 workstation",
+      "CPU": "Intel® Xeon® processor",
+      "RAM": "8 GB memory",
+      "Graphics": "AMD FirePro™ W2100 2 GB Graphics",
+      "Storage": "1 TB HDD storage",
+      "Price": "$1,750.77",
+      "Image": "/view/images/PrebuiltCoding/HPZ4.jpg",
+      "Link": "https://www.amazon.com/HP-Workstation-Mini-Tower-64-Bitnvidia-DVD-Writer/dp/B07PVCMXG8"
+    }
+  },
+  {
+    "Coding": {
+      "PCName": "HP OMEN 30L desktop GT13-0395xt PC",
+      "CPU": "Intel Core i9-10850K processor",
+      "RAM": "HyperX 16GB DDR4-3200 XMP RGB MHz Memory",
+      "Graphics": "NVIDIA GeForce RTX™ 3070 graphics card",
+      "Storage": "512GB WD Black PCIe NVMe TLC M.2 SSD",
+      "Price": "$2,799.99",
+      "Image": "/view/images/PrebuiltCoding/HPOmen30L.jpg",
+      "Link": "https://www.amazon.com/HP-OMEN-30L-Gaming-Desktop/dp/B093Y5HFW5"
+    }
+  },
+
+  {
+    "Graphic Design": {
+      "PCName": "Apple iMac Pro",
+      "CPU": "Intel Xeon W",
+      "RAM": "128GB Memory",
+      "Graphics": "AMD Vega 64 (16GB HBM2 RAM) Graphics",
+      "Storage": "1TB SSD storage",
+      "Price": "$2,779.99",
+      "Image": "/view/images/PrebuiltVideoEditing/iMacPro.jpg",
+      "Link": "https://www.amazon.com/Apple-Desktop-Space-MQ2Y2LL-Refurbished/dp/B07HY44CB1"
+    }
+  },
+  {
+    "Graphic Design": {
+      "PCName": "Microsoft Surface Studio 2",
+      "CPU": "Intel Core i7-7820HQ",
+      "RAM": "16GB – 32GB Memory",
+      "Graphics": "Nvidia GeForce GTX 1060 – 1070",
+      "Storage": "1TB-2TB SSD storage",
+      "Price": "$3,758.53",
+      "Image": "/view/images/PrebuiltVideoEditing/MicroSurfaceStudio.jpg",
+      "Link": "https://www.amazon.com/Microsoft-Surface-Studio-Intel-Core/dp/B07HZMVTLH"
+    }
+  },
+  {
+    "Graphic Design": {
+      "PCName": "Dell XPS 8940 Special Edition",
+      "CPU": "10th-generation Intel Core i7",
+      "RAM": "32GB Memory",
+      "Graphics": "Nvidia GeForce RTX 2060 Super",
+      "Storage": "1TB M.2 PCIe SSD + 1TB HDD",
+      "Price": "$1,499.99",
+      "Image": "/view/images/PrebuiltVideoEditing/DellXPS.jpg",
+      "Link": "https://www.amazon.com/Dell-XPS-8940-Special-Desktop/dp/B09JL8PSHT"
+    }
+  },
+  {
+    "Graphic Design": {
+      "PCName": "Apple Mac mini",
+      "CPU": "Apple M1 chip with 8-core",
+      "RAM": "8GB – 64GB Memory",
+      "Graphics": "Integrated 8-core Graphics",
+      "Storage": "256GB – 2TB SSD",
+      "Price": "$649.00",
+      "Image": "/view/images/PrebuiltVideoEditing/AppleMacMini.jpg",
+      "Link": "https://www.amazon.com/2020-Apple-Mini-256GB-Storage/dp/B08N5PHB83"
+    }
+  }
+]

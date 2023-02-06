@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="resultPane" prefHeight="120.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PCResultController">
+   <children>
+      <Separator layoutX="-6.0" layoutY="140.0" prefHeight="0.0" prefWidth="900.0" />
+      <HBox fx:id="box" prefHeight="140.0" prefWidth="195.0" spacing="20.0">
+         <children>
+            <Label fx:id="numberLbl" alignment="CENTER" contentDisplay="CENTER" prefHeight="14.0" prefWidth="37.0" text="1" />
+            <ImageView fx:id="pcImage" fitHeight="130.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/PrebuiltVideoEditing/DellXPS.jpg" />
+               </image>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <VBox layoutX="195.0" layoutY="2.0" prefHeight="140.0" prefWidth="487.0" AnchorPane.leftAnchor="195.0">
+         <children>
+            <HBox>
+               <children>
+                  <Label text="Name:  ">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label fx:id="nameLbl" alignment="CENTER" text="Name">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="CPU:  ">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label fx:id="cpuLbl" alignment="CENTER" text="CPU">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="RAM:  ">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label fx:id="ramLbl" alignment="CENTER" text="RAM">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="Graphics:   ">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label fx:id="graphicsLbl" alignment="CENTER" text="Graphics">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="Storage:  ">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label fx:id="storageLbl" alignment="CENTER" text="Storage">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="Price:  ">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label fx:id="priceLbl" alignment="CENTER" text="Price">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Hyperlink fx:id="link" onAction="#openLink" text="Buy">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

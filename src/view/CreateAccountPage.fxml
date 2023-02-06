@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CreateAccountController">
+    <right>
+        <AnchorPane prefHeight="400.0" prefWidth="373.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fx:id="brandingImageView" fitHeight="400.0" fitWidth="363.0" layoutX="7.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/Computer Selector.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+    </right>
+    <left>
+        <AnchorPane accessibleText="Username" prefHeight="400.0" prefWidth="241.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="24.0" layoutY="44.0" text="Username" />
+                <TextField fx:id="usernameTextField" layoutX="24.0" layoutY="68.0" prefHeight="25.0" prefWidth="180.0" promptText="Username" />
+                <Label layoutX="24.0" layoutY="103.0" text="Password" />
+                <PasswordField fx:id="enterPasswordField" layoutX="24.0" layoutY="127.0" prefHeight="25.0" prefWidth="180.0" promptText="Password" />
+                <Label fx:id="errorMessageLabel" layoutX="25.0" layoutY="229.0" text="         " textFill="#ff1919" />
+                <Button fx:id="createButton" layoutX="57.0" layoutY="264.0" mnemonicParsing="false" onAction="#createButtonOnAction" text="Create an Account" />
+                <Button fx:id="backButton" layoutX="94.0" layoutY="300.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back" />
+            <Label layoutX="25.0" layoutY="163.0" text="Confirm Password" />
+            <PasswordField fx:id="confirmPasswordField" layoutX="25.0" layoutY="187.0" prefHeight="25.0" prefWidth="180.0" promptText="Password" />
+            </children>
+        </AnchorPane>
+    </left>
+</BorderPane>

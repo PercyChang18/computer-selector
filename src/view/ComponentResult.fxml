@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="330.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ComponentResultController">
+   <children>
+      <ImageView fx:id="componentImage" fitHeight="145.0" fitWidth="160.0" layoutX="63.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+      <VBox layoutX="3.0" layoutY="165.0" prefHeight="164.0" prefWidth="282.0" AnchorPane.topAnchor="165.0">
+         <children>
+            <Label fx:id="categoryLbl" prefHeight="25.0" prefWidth="298.0" text="Category">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameLbl" prefHeight="25.0" prefWidth="301.0" text="Name">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="spec1Lbl" prefHeight="25.0" prefWidth="299.0" text="Spec1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="spec2Lbl" prefHeight="25.0" prefWidth="302.0" text="Spec2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="spec3Lbl" prefHeight="25.0" prefWidth="298.0" text="Spec3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="priceLbl" prefHeight="25.0" prefWidth="298.0" text="Price">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="link" onAction="#openLink" text="link">
+               <font>
+                  <Font size="14.0" />
+               </font></Hyperlink>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
